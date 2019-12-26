@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>rreserp</title>
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="stiky.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body style="background-color:#2EFEC8;">
+	<nav class="navbar navbar-expand-lg bg-dark">
+		<ul class="navbar-nav">
+ 			<li class="nav-item">
+ 				<a class="nav-link active" href="index.html">Home</a>
+ 			</li>
+ 			<li class="nav-item">
+ 				<a class="nav-link" href="resep.html">Resep Masakan</a>
+ 			</li>
+ 			<li class="nav-item">
+ 				<a class="nav-link" href="">Upload</a>
+ 			</li>
+		</ul>
+	</nav>
+<div class="container">
+  <h2>Upload Resep Masakan</h2>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Nama Masakan</label>
+      <input type="text" class="form-control" id="email" placeholder="Nama Masakan" name="email">
+    </div>
+    <div class="form-group">
+      <label for="resep">Resep Masakan:</label>
+      <textarea class="form-control" type="text" name="resep" id="resep" rows="9"></textarea>
+    </div>
+    <div class="form-group">
+    	<label for="img">Image</label>
+    	<input type="file" name="img" class="form-control-file" placeholder="Upload Gambar" id="img">
+    </div>
+    <div class="form-group">
+    	<button class="btn btn-primary btn-md float-right" type="submit">Submit</button>
+    </div>
+   </form>
+</div>
+</body>
+</html>
